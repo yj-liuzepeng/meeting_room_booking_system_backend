@@ -1,5 +1,6 @@
 import { IsEmail, IsNotEmpty, MinLength } from 'class-validator';
 
+// 校验规则
 export class RegisterUserDto {
   @IsNotEmpty({
     message: '用户名不能为空',
